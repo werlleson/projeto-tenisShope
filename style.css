@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --button: #ff0000;
+  --background: #e5e5e5;
+  --main-background: #c4c4c4;
+  --text: #000;
+  --footer: #000;
+  --text-description: #9c9696;
+}
+body {
+ background-color: var(--background);
+ max-width: 1440px;
+ width: 100%;
+}
+/* Logo */
+.logo img {
+  width: 52px;
+  height: 37px;
+}
+#hero-header{
+    width: 100%;
+}
+/* nav-bar */
+.nav-bar {
+  width: 1320px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin: 39px 60px 0;
+}
+/* Menu */
+.menu-bar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.menu-bar a {
+  display: flex;
+  text-decoration: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+/* Input de Pesquisa */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #fff;
+  width: 220px;
+  height: 45px;
+}
+.search input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-left: 10px;
+  border: none;
+}
+/* ------------------------------ */
+/* Main */
+/* ------------------------------- */
+
+#hero-main{
+  
+    width: 900px;
+    height: 914px;
+    left: 540px;
+    top: 0px;
+    position: absolute;
+    z-index: -1;
+
+    
+
+    background-color: var(--main-background);
+
+}
