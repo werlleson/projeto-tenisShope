@@ -201,9 +201,13 @@ main {
   line-height: 47px;
   color: var(--text);
 }
-.btn-comprar input {
-  padding: 33px 79px 33px 75px;
+.btn-comprar{
+  padding: 33px 75px;
   background: var(--button);
+}
+.btn-comprar input {
+  background: var(--button);
+  
   border: none;
   color: white;
 
